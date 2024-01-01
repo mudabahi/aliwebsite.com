@@ -8337,3 +8337,12 @@ i {
 .tab-content.active {
     display: flex;
 }
+
+
+/* Media Query */
+@media only screen and (max-width: 320px) {
+    .banner-two .banner-two__content h1{
+        font-size: 43px;
+        margin-bottom: 0;
+    }
+}
